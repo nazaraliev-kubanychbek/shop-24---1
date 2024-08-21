@@ -14,7 +14,7 @@ function App() {
 
   useEffect(()=>{
     dispatch(getCategories())
-  }, []);
+  }, [dispatch]);
   return (
     <BrowserRouter>
         <Header />
